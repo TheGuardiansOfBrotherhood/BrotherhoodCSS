@@ -1,6 +1,4 @@
-body {
-	background-color: green;
-
+div.row {
 	display: grid;
 	grid-template-columns: 2fr; /* max 1 columns */
 }

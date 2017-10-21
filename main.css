@@ -20,3 +20,9 @@
 
 /* color */
 @import url(color.css);
+
+/* fonts */
+@import url(font.css);
+
+/* default */
+@import url(default.css);
