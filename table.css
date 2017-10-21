@@ -1,21 +1,20 @@
 table, th, td {
     border: none;
-  }
-  
-  table {
+}
+
+table {
     width: 100%;
     display: table;
     border-collapse: collapse;
-  }
+}
 
-  td, th {
+td, th {
     padding: 15px 5px;
     display: table-cell;
     text-align: left;
     vertical-align: middle;
-  }
+}
 
-  thead {
+thead {
     border-bottom: 1px solid #d0d0d0;
-  }
-
+}
