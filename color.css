@@ -1,0 +1,115 @@
+/* color red */
+.red-50 {
+    background-color: #FFEBEE !important;
+    color: #000000DE;
+}
+.red-100 {
+    background-color: #FFCDD2 !important;
+    color: #000000DE;
+}
+.red-200 {
+    background-color: #EF9A9A !important;
+    color: #000000DE;
+}
+.red-300 {
+    background-color: #E57373 !important;
+    color: #000000DE;
+}
+.red-400 {
+    background-color: #EF5350 !important;
+    color: #FFFFFFDE;
+}
+.red, .red-500 {
+    background-color: #F44336 !important;
+    color: #FFFFFFDE;
+}
+.red-600 {
+    background-color: #E53935 !important;
+    color: #FFFFFFDE;
+}
+.red-700 {
+    background-color: #D32F2F !important;
+    color: #FFFFFFDE;
+}
+.red-800 {
+    background-color: #C62828 !important;
+    color: #FFFFFFDE;
+}
+.red-900 {
+    background-color: #B71C1C !important;
+    color: #FFFFFFDE;
+}
+.red-A100 {
+    background-color: #FF8A80 !important;
+    color: #000000DE;
+}
+.red-A200 {
+    background-color: #FF5252 !important;
+    color: #FFFFFFDE;
+}
+.red-A400 {
+    background-color: #FF1744 !important;
+    color: #FFFFFFDE;
+}
+.red-A700 {
+    background-color: #D50000 !important;
+    color: #FFFFFFDE;
+}
+
+/* color pink */
+.pink-50 {
+    background-color: #FCE4EC !important;
+    color: #000000DE;
+}
+.pink-100 {
+    background-color: #F8BBD0 !important;
+    color: #000000DE;
+}
+.pink-200 {
+    background-color: #F48FB1 !important;
+    color: #000000DE;
+}
+.pink-300 {
+    background-color: #F06292 !important;
+    color: #000000DE;
+}
+.pink-400 {
+    background-color: #EC407A !important;
+    color: #FFFFFFDE;
+}
+.pink, .pink-500 {
+    background-color: #E91E63 !important;
+    color: #FFFFFFDE;
+}
+.pink-600 {
+    background-color: #D81B60 !important;
+    color: #FFFFFFDE;
+}
+.pink-700 {
+    background-color: #C2185B !important;
+    color: #FFFFFFDE;
+}
+.pink-800 {
+    background-color: #AD1457 !important;
+    color: #FFFFFFDE;
+}
+.pink-900 {
+    background-color: #880E4F !important;
+    color: #FFFFFFDE;
+}
+.pink-A100 {
+    background-color: #FF80AB !important;
+    color: #000000DE;
+}
+.pink-A200 {
+    background-color: #FF4081 !important;
+    color: #FFFFFFDE;
+}
+.pink-A400 {
+    background-color: #F50057 !important;
+    color: #FFFFFFDE;
+}
+.pink-A700 {
+    background-color: #C51162 !important;
+    color: #FFFFFFDE;
+}
