@@ -1,0 +1,4 @@
+div.row {
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr; /* max 8 columns */
+}

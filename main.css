@@ -1,0 +1,28 @@
+/*!
+
+	BrotherhoodCSS Framework
+
+	Developers:
+		Everton Castro
+		Jackson Castro
+		Roger Silva
+
+*/
+
+/* mobile */
+@import url(mobile.css) (max-width: 600px);
+
+/* tablet */
+@import url(tablet.css) (min-width: 601px) and (max-width: 992px);
+
+/* desktop */
+@import url(desktop.css) (min-width: 993px);
+
+/* color */
+@import url(color.css);
+
+/* fonts */
+@import url(font.css);
+
+/* default */
+@import url(default.css);
