@@ -26,3 +26,7 @@
 
 /* default */
 @import url(default.css);
+
+@import url(table.css);
+
+@import url(menu.css);

@@ -2,3 +2,8 @@ div.row {
 	display: grid;
 	grid-template-columns: 2fr; /* max 1 columns */
 }
+
+/*Menu*/
+.menu li {
+	width: 100%;
+}
