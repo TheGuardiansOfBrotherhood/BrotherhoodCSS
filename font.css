@@ -15,20 +15,20 @@
 	src: url(fonts/Roboto/Roboto-Italic.ttf);
 }
 
-/* Open Sans */
+/* Lato */
 @font-face {
-	font-family: OpenSans;
-	src: url(fonts/Open_Sans/OpenSans-Regular.ttf);
+	font-family: Lato;
+	src: url(fonts/Lato/Lato-Regular.ttf);
 }
 
 @font-face {
-	 font-family: OpenSans Bold;
-	 src: url(fonts/Open_Sans/OpenSans.ttf);
+	 font-family: Lato Bold;
+	 src: url(fonts/Lato/Lato-Bold.ttf);
 }
 
 @font-face {
-	font-family: OpenSans Italic;
-	src: url(fonts/Open_Sans/OpenSans-Italic.ttf);
+	font-family: Lato Italic;
+	src: url(fonts/Lato/Lato-Italic.ttf);
 }
 
 /* Source Sans PRO */

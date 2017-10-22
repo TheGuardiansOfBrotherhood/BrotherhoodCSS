@@ -3,20 +3,21 @@ html {
 }
 
 table, th, td {
-    border: none;
+	border: none;
 }
 
 table {
-    width: 100%;
-    display: table;
-    border-collapse: collapse;
+	font-family: Lato;
+	width: 100%;
+	display: table;
+	border-collapse: collapse;
 }
 
 td, th {
-    padding: 15px 5px;
-    display: table-cell;
-    text-align: left;
-    vertical-align: middle;
+	padding: 15px 5px;
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
 }
 
 thead {
@@ -25,47 +26,47 @@ thead {
 
 h1 {
 	font-size: 2.0rem;
-	font-family: Roboto Bold;
-	font-weight: 200;
+	font-family: SourceSansPro Bold;
+	font-weight: 500;
 	line-height: 1.1;
 	color: inherit;
 }
 
 h2 {
 	font-size: 1.75rem;
-	font-family: Roboto Bold;
-	font-weight: 200;
+	font-family: SourceSansPro Bold;
+	font-weight: 500;
 	line-height: 1.1;
 	color: inherit;
 }
 
 h3 {
 	font-size: 1.5rem;
-	font-family: Roboto Bold;
-	font-weight: 200;
+	font-family: SourceSansPro Bold;
+	font-weight: 500;
 	line-height: 1.1;
 	color: inherit;
 }
 
 h4 {
 	font-size: 1.25rem;
-	font-family: Roboto Bold;
-	font-weight: 200;
+	font-family: SourceSansPro Bold;
+	font-weight: 500;
 	line-height: 1.1;
 	color: inherit;
 }
 
 h5 {
 	font-size: 1rem;
-	font-family: Roboto Bold;
-	font-weight: 200;
+	font-family: SourceSansPro Bold;
+	font-weight: 500;
 	line-height: 1.1;
 	color: inherit;
 }
 
 h6 {
 	font-size: 0.75rem;
-	font-family: Roboto Bold;
+	font-family: SourceSansPro Bold;
 	font-weight: 200;
 	line-height: 1.1;
 	color: inherit;
