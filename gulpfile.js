@@ -11,7 +11,7 @@ gulp.task('clean', function () {
 });
 
 gulp.task('clean-css', () => {
-	return gulp.src('main.css')
+	return gulp.src('brotherhood.css')
 		.pipe(cleanCSS({compatibility: 'ie8'}))
 		.pipe(rename({
 			suffix: '.min'
