@@ -26,7 +26,11 @@
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
     "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-foreach": "^0.1.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-inline-fonts": "^1.0.4",
     "gulp-rename": "^1.2.2",
-    "gulp-uglifycss": "^1.0.8"
+    "merge-stream": "^1.0.1"
   }
 }
