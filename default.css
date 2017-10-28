@@ -121,3 +121,11 @@ body {
     color: #444;
     cursor: default;
 }
+
+div.row > div {
+	padding: 15px;
+}
+
+div > h1, div > h2, div > h3, div > h4, div > h5, div > h6 {
+	padding: 15px;
+}

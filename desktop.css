@@ -7,3 +7,35 @@ div.row {
 .menu li {
 	width: 12.5%;
 }
+
+div.row.col-1 {
+	grid-template-columns: 2fr; /* max 1 columns */
+}
+
+div.row.col-2 {
+	grid-template-columns: 2fr 2fr; /* max 2 columns */
+}
+
+div.row.col-3 {
+	grid-template-columns: 2fr 2fr 2fr; /* max 3 columns */
+}
+
+div.row.col-4 {
+	grid-template-columns: 2fr 2fr 2fr 2fr; /* max 4 columns */
+}
+
+div.row.col-5 {
+	grid-template-columns: 2fr 2fr 2fr 2fr 2fr; /* max 5 columns */
+}
+
+div.row.col-6 {
+	grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr; /* max 6 columns */
+}
+
+div.row.col-7 {
+	grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr; /* max 7 columns */
+}
+
+div.row.col-8 {
+	grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr; /* max 8 columns */
+}
