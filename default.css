@@ -88,6 +88,11 @@ body {
     margin: 0;
     padding: 0;
 }
+.menu {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
 
 .menu ul {
     width: 100%;
@@ -147,8 +152,13 @@ section {
 }
 
 .title {
-	margin: 15px;
 	font-size: 2em;
 	font-family: Lato Bold;
 	color: #1976D2;
+	padding-left: 15px;
+}
+
+.anchor {
+	visibility:hidden;
+	margin: 15px;
 }
