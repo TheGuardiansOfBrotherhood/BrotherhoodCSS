@@ -113,7 +113,7 @@ body {
 }
    
 .menu a:hover {
-    background-color: #005f5f;
+    background-color: #1976D2;
 }
 
 .menu a.active {
@@ -126,6 +126,29 @@ div.row > div {
 	padding: 15px;
 }
 
-div > h1, div > h2, div > h3, div > h4, div > h5, div > h6 {
+div > h1, div > h2, div > h3, div > h4, div > h5, div > h6,
+section > h1, section > h2, section > h3, dissectionectionv > h4, section > h5, section > h6
+{
 	padding: 15px;
+}
+
+section > table {
+	margin: 15px;
+}
+
+section {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+
+.menu > ul > li > a {
+	font-family: Roboto;
+	font-size: 1.1em;
+}
+
+.title {
+	margin: 15px;
+	font-size: 2em;
+	font-family: Lato Bold;
+	color: #1976D2;
 }
