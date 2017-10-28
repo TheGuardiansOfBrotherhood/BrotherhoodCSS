@@ -4,6 +4,91 @@ div.row {
 }
 
 /*Menu*/
+
+.menu {
+	height: 60px;
+}
+
+.menu > ul {
+	visibility: hidden;
+}
+
 .menu li {
 	width: 100%;
+}
+
+.c-hamburger--rot.is-active span {
+	transform: rotate(90deg);
+}
+
+.c-hamburger {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: 50px;
+	height: 50px;
+	font-size: 0;
+	text-indent: -9999px;
+	appearance: none;
+	box-shadow: none;
+	border-radius: none;
+	border: none;
+	cursor: pointer;
+	transition: background 0.3s;
+  }
+  
+  .c-hamburger:focus {
+	outline: none;
+  }
+
+  .c-hamburger span {
+	display: block;
+	position: absolute;
+	top: 22px;
+	left: 10px;
+	right: 10px;
+	height: 6px;
+	background: white;
+  }
+  
+  .c-hamburger span::before,
+  .c-hamburger span::after {
+	position: absolute;
+	display: block;
+	left: 0;
+	width: 100%;
+	height: 6px;
+	background-color: #fff;
+	content: "";
+  }
+  
+  .c-hamburger span::before {
+	top: -15px;
+  }
+  
+  .c-hamburger span::after {
+	bottom: -15px;
+  }
+
+  .c-hamburger--rot {
+	background-color: #2196F3;
+  }
+  
+  .c-hamburger--rot span {
+	transition: transform 0.3s;
+  }
+  
+  /* active state, i.e. menu open */
+  .c-hamburger--rot.is-active {
+	background-color: #1976D2;
+  }
+  
+  .c-hamburger--rot.is-active span {
+	transform: rotate(90deg);
+  }
+
+button.c-hamburger.c-hamburger--rot {
+	visibility: visible;
 }

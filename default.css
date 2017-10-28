@@ -162,3 +162,8 @@ section {
 	visibility:hidden;
 	margin: 15px;
 }
+
+button.c-hamburger.c-hamburger--rot {
+	visibility: hidden;
+	position: fixed;
+}

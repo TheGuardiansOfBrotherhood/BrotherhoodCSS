@@ -35,14 +35,13 @@
 	</head>
 
 	<body>
-
-		<div class="menu blue">
-			<ul>
+		<div id="menu" class="menu blue">
+			<button class="c-hamburger c-hamburger--rot" onclick="clickMenu(event)">
+				<span>toggle menu</span>
+			</button>
+			<ul id="items-menu">
 				<li>
 					<a href="#">Sobre</a>
-				</li>
-				<li>
-					<a href="#">Fontes</a>
 				</li>
 				<li>
 					<a href="#image-video">Images e Vídeos</a>
@@ -57,6 +56,9 @@
 					<a href="#table">Tabela</a>
 				</li>
 				<li>
+					<a href="#fonts">Fontes</a>
+				</li>
+				<li>
 					<a href="#tag-h">Tags H</a>
 				</li>
 				<li>
@@ -65,10 +67,11 @@
 			</ul>
 		</div>
 
+		<!-- image-video -->
 		<section>
 			<div>
 				<a name="image-video" class="anchor"></a>
-				<p class="title">Imagens e Vídeos fluídos</p>
+				<p class="title">Imagens e vídeos</p>
 				<div class="row col-2">
 					<div>
 						<h4>Imagem</h4>
@@ -84,6 +87,7 @@
 			</div>
 		</section>
 
+		<!-- palette -->
 		<section>
 			<div id="palette">
 				<a name="palettle" class="anchor"></a>
@@ -434,17 +438,18 @@
 			</div>
 		</section>
 
+		<!-- table -->
 		<section>
 			<a name="table" class="anchor"></a>
 			<p class="title">Tabela</p>
 			<table>
 				<thead>
-				<tr>
-					<th>Name</th>
-					<th>Item Name</th>
-					<th>Item Price</th>
+					<tr>
+						<th>Name</th>
+						<th>Item Name</th>
+						<th>Item Price</th>
 
-				</tr>
+					</tr>
 				</thead>
 		
 				<tbody>
@@ -467,7 +472,40 @@
 			</table>
 		</section>
 
-		<!-- typography -->
+		<!-- fonts -->
+		<section>			
+			<a name="fonts" class="anchor"></a>
+			<p class="title">Fontes</p>
+			
+			<div class="row col-3">
+				<div style="text-align: center;">
+					<h2>Roboto</h2>
+		
+					<p style="font-family: Roboto Regular">Roboto Regular</p>
+					<p style="font-family: Roboto Bold">Roboto Bold</p>
+					<p style="font-family: Roboto Italic">Roboto Italic</p>
+				</div>
+
+				<div style="text-align: center;">
+					<h2>Lato</h2>
+		
+					<p style="font-family: Lato Regular">Lato Regular</p>
+					<p style="font-family: Lato Bold">Lato Bold</p>
+					<p style="font-family: Lato Italic">Lato Italic</p>
+				</div>
+
+				<div style="text-align: center;">
+					<h2>Source Sans Pro</h2>
+		
+					<p style="font-family: SourceSansPro Regular">Source Sans Pro Regular</p>
+					<p style="font-family: SourceSansPro Bold">Source Sans Pro Bold</p>
+					<p style="font-family: SourceSansPro Italic">Source Sans Pro Italic</p>
+				</div>
+			</div>
+
+		</section>
+
+		<!-- tag-h -->
 		<section>			
 			<a name="tag-h" class="anchor"></a>
 			<p class="title">Tags H</p>
@@ -573,5 +611,42 @@
 				</div>
 			</div>
 		</section>
+
+		<script>
+			(function() {
+
+				"use strict";
+
+				var toggles = document.querySelectorAll(".c-hamburger");
+
+				for (var i = toggles.length - 1; i >= 0; i--) {
+					var toggle = toggles[i];
+					toggleHandler(toggle);
+				};
+
+				function toggleHandler(toggle) {
+					toggle.addEventListener( "click", function(e) {
+					e.preventDefault();
+					(this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
+					});
+				}
+			})();
+
+			function clickMenu(e) {
+				var visibility = 'hidden';
+				var height = '55px';
+
+				if (!e.target.classList.contains('is-active')) {
+					visibility = 'visible';
+					height = '470px';
+				}
+			
+				var itemsMenu = document.getElementById('items-menu');
+				itemsMenu.style.visibility = visibility;
+
+				var menu = document.getElementById('menu');
+				menu.style.height = height;
+			}
+		</script>
 	</body>
 </html>
