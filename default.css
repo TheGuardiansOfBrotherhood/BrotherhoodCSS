@@ -167,3 +167,7 @@ button.c-hamburger.c-hamburger--rot {
 	visibility: hidden;
 	position: fixed;
 }
+
+.center {
+	text-align: center;	
+}
